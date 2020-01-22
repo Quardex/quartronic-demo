@@ -1,0 +1,15 @@
+{
+    "name": "quardex/quartronic-demo",
+    "description": "Demo template for Quartronic CMS",
+    "type": "project",
+    "require": {
+        "quardex/quartronic": "*"
+    },
+    "authors": [
+        {
+            "name": "Andrew Quardex",
+            "email": "quardex@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}

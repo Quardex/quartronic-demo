@@ -1,0 +1,128 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7d0d0681e4e4e1d1bbcc78a153ac035b",
+    "packages": [
+        {
+            "name": "envms/fluentpdo",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/envms/fluentpdo.git",
+                "reference": "ed842a6731b95477976b0271573e885994fb6702"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/envms/fluentpdo/zipball/ed842a6731b95477976b0271573e885994fb6702",
+                "reference": "ed842a6731b95477976b0271573e885994fb6702",
+                "shasum": ""
+            },
+            "require-dev": {
+                "envms/fluent-test": "^1.0",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Envms\\FluentPDO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0",
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "envms",
+                    "homepage": "http://env.ms"
+                }
+            ],
+            "description": "FluentPDO is a quick and light PHP library for rapid query building. It features a smart join builder, which automatically creates table joins.",
+            "homepage": "https://github.com/envms/fluentpdo",
+            "keywords": [
+                "builder",
+                "database",
+                "db",
+                "dbal",
+                "fluent",
+                "mysql",
+                "oracle",
+                "pdo",
+                "query"
+            ],
+            "time": "2019-04-27T20:21:50+00:00"
+        },
+        {
+            "name": "quardex/adminbsb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Quardex/AdminBSBMaterialDesign.git",
+                "reference": "282b1e28e885a1f8b551547e009ca65db81ac80c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Quardex/AdminBSBMaterialDesign/zipball/282b1e28e885a1f8b551547e009ca65db81ac80c",
+                "reference": "282b1e28e885a1f8b551547e009ca65db81ac80c",
+                "shasum": ""
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Andrew Quardex",
+                    "email": "quardex@mail.ru"
+                }
+            ],
+            "description": "AdminBSB Material Design",
+            "time": "2019-10-01T12:24:58+00:00"
+        },
+        {
+            "name": "quardex/quartronic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Quardex/Quartronic.git",
+                "reference": "6b783ea024aae616649d36d0e184190087f1e4b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Quardex/Quartronic/zipball/6b783ea024aae616649d36d0e184190087f1e4b5",
+                "reference": "6b783ea024aae616649d36d0e184190087f1e4b5",
+                "shasum": ""
+            },
+            "require": {
+                "envms/fluentpdo": "dev-master",
+                "php": ">=7.0",
+                "quardex/adminbsb": "dev-master"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "quarsintex\\quartronic\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Andrew Quardex",
+                    "email": "quardex@mail.ru"
+                }
+            ],
+            "description": "Framework agnostic CMS",
+            "time": "2020-01-21T21:45:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
