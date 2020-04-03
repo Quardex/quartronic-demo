@@ -1,8 +1,8 @@
 <?
 
-require_once '../../vendor/autoload.php';
+require_once '../../../vendor/autoload.php';
 
 $QApp = new \quarsintex\quartronic\qcore\Quartronic;
-$QApp->run([]);
+$QApp->run(['webPath'=>'/admin/']);
 
 ?>
