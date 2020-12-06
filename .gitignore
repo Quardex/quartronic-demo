@@ -2,3 +2,4 @@
 vendor
 app/web/qassets
 composer.lock
+runtime/q.db
